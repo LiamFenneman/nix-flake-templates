@@ -5,19 +5,27 @@
     templates = {
       latex = {
         path = ./latex;
-        description = "A blank LaTeX project";
+        description = "Blank LaTeX project";
       };
       latex-ieee = {
         path = ./latex-ieee;
-        description = "A LaTeX project with the IEEEtran style";
+        description = "LaTeX project with the IEEEtran style";
       };
       latex-vuw = {
         path = ./latex-vuw;
-        description = "A LaTeX project with the VUW handbook style";
+        description = "LaTeX project with the VUW handbook style";
       };
       rust = {
         path = ./rust;
         description = "Simple Hello World in Rust";
+      };
+      c = {
+        path = ./c;
+        description = "Simple Hello World in C";
+      };
+      c-raylib = {
+        path = ./c-raylib;
+        description = "Simple C project with raylib";
       };
     };
   };
