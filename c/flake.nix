@@ -10,7 +10,7 @@
       defaultPackage.${system} =
         with import nixpkgs { inherit system; };
         clangStdenv.mkDerivation {
-          name = "c-raylib-template";
+          name = "c-template";
           src = self;
           buildInputs = with pkgs; [ ];
           buildPhase = "clang -Wall -O3 -o main ./main.c";
