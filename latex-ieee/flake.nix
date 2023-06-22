@@ -21,7 +21,7 @@
       rec
       {
         packages.document = pkgs.stdenvNoCC.mkDerivation rec {
-          name = "vuw-report";
+          name = "ieee-report";
 
           src = self;
           buildInputs = with pkgs; [ coreutils tex gzip perl ];
