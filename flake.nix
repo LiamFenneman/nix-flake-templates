@@ -31,6 +31,10 @@
         path = ./html-serve;
         description = "Basic HTML server";
       };
+      ruby = {
+        path = ./ruby;
+        description = "Simple Hello World in Ruby";
+      };
     };
   };
 }
