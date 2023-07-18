@@ -24,7 +24,7 @@
         nativeBuildInputs = with pkgs; [ rustToolchain pkg-config ];
 
         # Runtime dependencies
-        buildInputs = with pkgs; [ openssl ];
+        buildInputs = with pkgs; [ ];
       in
       with pkgs;
       {
