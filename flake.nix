@@ -15,6 +15,10 @@
         path = ./latex-vuw;
         description = "LaTeX project with the VUW handbook style";
       };
+      dev-shell = {
+          path = ./dev-shell;
+          description = "Empty Nix flake with a dev shell setup";
+      };
       rust = {
         path = ./rust;
         description = "Simple Hello World in Rust";
