@@ -1,1 +1,3 @@
 *.tex linguist-detectable=false
+*.cls linguist-detectable=false
+*.sty linguist-detectable=false
