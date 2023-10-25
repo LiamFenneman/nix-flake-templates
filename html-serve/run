@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-cargo install --git https://github.com/mufeedvh/binserve.git
-binserve
