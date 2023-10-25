@@ -31,14 +31,6 @@
         path = ./c-raylib;
         description = "Simple C project with raylib";
       };
-      html-serve = {
-        path = ./html-serve;
-        description = "Basic HTML server";
-      };
-      ruby = {
-        path = ./ruby;
-        description = "Simple Hello World in Ruby";
-      };
     };
   };
 }
